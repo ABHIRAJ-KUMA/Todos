@@ -1,0 +1,119 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.MuiPaper-root {
+  transition: all 0.3s ease;
+  border-radius: 10px !important;
+  padding: 1.5rem;
+}
+
+.MuiButton-contained {
+  text-transform: none;
+  font-weight: 500;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+}
+
+.MuiListItem-root {
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.MuiCheckbox-root {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.MuiCheckbox-colorPrimary {
+  color: #3f51b5 !important;
+}
+
+.MuiListItemSecondaryAction-root {
+  right: 8px;
+}
+
+.MuiChip-root {
+  font-weight: 500;
+  background-color: #e3f2fd !important;
+  color: #1976d2 !important;
+}
+
+.MuiDivider-root {
+  background-color: rgba(0, 0, 0, 0.08);
+  margin: 1rem 0 !important;
+}
+
+.MuiTypography-h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-weight: 700 !important;
+}
+
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  color: #34495e;
+  font-weight: 600 !important;
+}
+
+.MuiTextField-root {
+  background-color: white;
+  border-radius: 8px !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 8px !important;
+}
+
+.MuiSelect-select {
+  padding: 12.5px 14px !important;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(244, 67, 54, 0.08) !important;
+}
+
+.MuiIconButton-root {
+  color: #f44336 !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+  
+  .container {
+    padding: 1.5rem;
+  }
+  
+  .MuiTypography-h3 {
+    font-size: 2rem;
+  }
+  
+  .MuiBox-root {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .MuiTextField-root, .MuiFormControl-root {
+    width: 100%;
+  }
+}
